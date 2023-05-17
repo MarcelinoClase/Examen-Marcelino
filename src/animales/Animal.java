@@ -15,8 +15,9 @@ public abstract class Animal {
     private LocalDate fechaNacimiento;
     private char sexo;
     private double peso;
-
-    public Animal(String codigo, String fechaNacimiento, char sexo, double peso) {
+    
+    /**
+    public Animal(String codigo, String fechaNacimiento, char sexo, double peso) throws IllegalArgumentException {
 
         LocalDate fecha;
 
